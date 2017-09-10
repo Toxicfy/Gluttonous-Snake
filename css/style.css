@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 500;
+  background: url('../img/1.jpg');
+}
+
+.wrapper {
+  width: 700px;
+  height: 100%;
+  margin: 20px auto;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #B94D4D;
+}
+.canvas{
+  width: 700px;
+  margin:0 auto;
+}
+#cvs {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7)
+}
+
+.scoreWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreWrapper .score ul {
+  list-style: none
+}
+
+.scoreWrapper .score ul span {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.scoreWrapper .score ul p {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #B94D4D;
+}
